@@ -11,6 +11,8 @@
 	"automergeStrategy": "merge-commit",
 	"platformAutomerge": true,
 
+	"postUpdateOptions": ["gomodTidy"],
+
 	"packageRules": [
 		{
 			"matchManagers": ["gomod"],
