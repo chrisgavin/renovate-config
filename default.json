@@ -12,8 +12,8 @@
 	"platformAutomerge": true,
 
 	"postUpdateOptions": [
-		"gomodTidy",
-		"gomodUpdateImportPaths"
+		"gomodUpdateImportPaths",
+		"gomodTidy"
 	],
 
 	"packageRules": [
