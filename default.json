@@ -11,7 +11,10 @@
 	"automergeStrategy": "merge-commit",
 	"platformAutomerge": true,
 
-	"postUpdateOptions": ["gomodTidy"],
+	"postUpdateOptions": [
+		"gomodTidy",
+		"gomodUpdateImportPaths"
+	],
 
 	"packageRules": [
 		{
