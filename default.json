@@ -23,6 +23,12 @@
 			"enabled": true
 		},
 		{
+			"matchManagers": ["gomod"],
+			"matchDepTypes": ["indirect"],
+			"matchUpdateTypes": ["major"],
+			"enabled": false
+		},
+		{
 			"matchManagers": ["nodenv"],
 			"matchPackageNames": ["node"],
 			"matchUpdateTypes": ["major"],
