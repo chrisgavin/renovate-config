@@ -29,6 +29,12 @@
 			"enabled": false
 		},
 		{
+			"matchManagers": ["gomod"],
+			"matchDepTypes": ["indirect"],
+			"matchCurrentVersion": "^v0\\..*",
+			"enabled": false
+		},
+		{
 			"matchManagers": ["nodenv"],
 			"matchPackageNames": ["node"],
 			"matchUpdateTypes": ["major"],
