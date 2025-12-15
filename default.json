@@ -39,6 +39,12 @@
 			"matchPackageNames": ["node"],
 			"matchUpdateTypes": ["major"],
 			"enabled": false
+		},
+		{
+			"matchManagers": ["npm"],
+			"matchPackagePatterns": ["^@tsconfig/node"],
+			"matchUpdateTypes": ["major"],
+			"enabled": false
 		}
 	]
 }
