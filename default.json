@@ -11,6 +11,8 @@
 	"automergeStrategy": "merge-commit",
 	"platformAutomerge": true,
 
+	"addLabels": ["dependency"],
+
 	"postUpdateOptions": [
 		"gomodUpdateImportPaths",
 		"gomodTidy"
