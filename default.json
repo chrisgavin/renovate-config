@@ -13,6 +13,8 @@
 
 	"addLabels": ["dependencies"],
 
+	"minimumReleaseAge": "3 days",
+
 	"postUpdateOptions": [
 		"gomodUpdateImportPaths",
 		"gomodTidy"
@@ -47,6 +49,11 @@
 			"matchPackagePatterns": ["^@tsconfig/node"],
 			"matchUpdateTypes": ["major"],
 			"enabled": false
+		},
+		{
+			"description": "Own dependencies are trusted, so they don't need to wait out the cooldown.",
+			"matchPackageNames": ["/(?:^|\\/|@)(?:chrisgavin|pxdio)\\//"],
+			"minimumReleaseAge": null
 		}
 	]
 }
